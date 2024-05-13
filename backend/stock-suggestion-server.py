@@ -6,8 +6,6 @@ from flask import Flask, request, Response
 from flask_cors import CORS, cross_origin
 
 
-
-
 # Define an instance of Flask object
 app = Flask(__name__)
 CORS(app, origins='http://localhost:3000')
@@ -16,7 +14,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 """ Stocks for investment strategies"""
 
 # Replace 'YOUR_FINANCIAL_MODELING_PREP_API_KEY' with your actual API key
-api_key = 'nGNYeJajsvrBRZnZ4rq1Gmj7shiF9Ytf'
+api_key = "7yOZ3RSWh1qiCXnsanjTs6omRXtljxnf"
 
 ## Stocks as per the intense study and survey based on the strategies
 ethical_investing = ["AAPL", "TSLA", "ADBE"]

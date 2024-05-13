@@ -1,0 +1,76 @@
+body {
+    background: #f0f2f5 !important; /* Light grey background */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark grey text color for better readability */
+}
+
+.box {
+    padding: 2%;
+    width: 60%;
+    background: #ffffff; /* Keeping box backgrounds white for contrast */
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05); /* Lighter box shadow */
+}
+
+/* Header styling */
+.box h3 {
+    color: #333333; /* Dark text color for contrast */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.effect1 {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Subtle box shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+footer {
+    background: #242424; /* Darker grey for footer */
+    color: #fff; /* Light text color for footer */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.stockCard {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02); /* Very subtle box shadow */
+    border: 1px solid #e0e0e0; /* Light border color */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.ant-spin {
+    color: #1890ff; /* Ant Design primary color for the spinner */
+}
+
+.ant-spin-text {
+    color: #666; /* Dark grey text color */
+}
+
+.ant-divider {
+    background-color: #e0e0e0; /* Light grey divider */
+}
+
+.ant-typography {
+    color: #333; /* Dark grey text color for typography */
+}
+
+.text strong {
+    color: #333; /* Dark text color */
+}
+
+.text {
+    color: #666; /* Light grey text color */
+}
+
+a {
+    color: #1890ff; /* Ant Design primary color for links */
+}
+
+a:hover {
+    color: #40a9ff; /* Slightly brighter color on hover */
+}
